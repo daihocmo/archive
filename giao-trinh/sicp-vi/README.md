@@ -1,0 +1,1 @@
+Đây là phần mở đầu cho SICP, bản Tiếng Việt, vừa học vừa dịch
