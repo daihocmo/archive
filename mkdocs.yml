@@ -1,0 +1,62 @@
+site_name: Lưu trữ - Khu học mở
+site_description: Lưu nhiều nội dung không còn được hỗ trợ và cập nhật
+site_author: duykhanh471
+repo_name: Chỉnh sửa trang
+repo_url: https://github.com/daihocmo/archive
+
+nav:
+  - 'Khu lưu trữ': 'index.md'
+  - 'Tự luyện Tiếng Anh': 
+    - 'Hướng dẫn chính': 'tu-luyen-tieng-anh/main-guide.md'
+    - 'Lộ trình hàng ngày': 'tu-luyen-tieng-anh/lo-trinh.md'
+  - 'Tiếng Anh chuyên ngành': 
+    - 'Hướng dẫn chung': 'tieng-anh-chuyen-nganh/main-guide.md'
+    - 'Hướng dẫn':
+      - 'Cài đặt': 'tieng-anh-chuyen-nganh/guide/huong-dan-cai-dat.md'
+      - 'Cấu trúc chương trình': 'tieng-anh-chuyen-nganh/guide/struct.md'
+      - 'Tài nguyên': 'tieng-anh-chuyen-nganh/guide/tai-nguyen.md'
+    - 'Tài nguyên': 
+      - 'Computer Science': 'tieng-anh-chuyen-nganh/docs/compsci.md'
+      - 'Business English': 'tieng-anh-chuyen-nganh/docs/business.md'
+      - 'Marketing': 'tieng-anh-chuyen-nganh/docs/marketing.md'
+      - 'Nghệ thuật': 'tieng-anh-chuyen-nganh/docs/hoi-hoa.md'
+      - 'Thiết kế đồ họa': 'tieng-anh-chuyen-nganh/docs/do-hoa.md'
+      - 'Kiến trúc': 'tieng-anh-chuyen-nganh/docs/kien-truc.md'
+      - 'Báo chí': 'tieng-anh-chuyen-nganh/docs/bao-chi.md'
+      - 'Y học': 'tieng-anh-chuyen-nganh/docs/y-hoc.md'
+      - 'Du lịch': 'tieng-anh-chuyen-nganh/docs/du-lich.md'
+      - 'May mặc': 'tieng-anh-chuyen-nganh/docs/may-mac.md'
+
+theme:
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: grey
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: grey
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.sections
+    - search.suggest
+    - search.highlighting
+    - search.share
+  name: material
+  
+plugins:
+  - search
+  - open-in-new-tab
+    
+extra:
+  generator: false
